@@ -1,0 +1,55 @@
+ body{
+    margin-left: 20px;
+    background-color:  rgb(227, 212, 198);
+ }
+
+.chat {
+    background-color: aliceblue;
+    padding: 30px 100px;
+    border-radius: 16px;
+   display: block;         /* inline-block hata do ya block karo */
+    width: fit-content;     /* ya koi fixed width */
+    margin: 0 auto;     /* center align */
+    
+}
+.msg{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+ .main {
+    margin: 20px 0px;
+    padding: 3px;
+    background-color: rgb(56, 138, 90);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width:20%;
+    margin-left: 40%;
+ }
+
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .newbtn {
+    background-color: rgb(56, 138, 90);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+  }
